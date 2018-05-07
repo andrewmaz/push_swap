@@ -27,3 +27,7 @@ if number of digits <= 5 - no more then 8 operations.
 if number of digits <= 100 - no more then 700 operations.  
 if number of digits <= 500 - no more then 5300 operations.  
 **./checker** - using commands make manipulations with stacks "a" and show the result OK/KO.  
+#### How to run?  
+    make  
+    A="2 3 1"; ./push_swap $A | ./cheker $A  
+    
